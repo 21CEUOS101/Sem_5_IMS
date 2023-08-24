@@ -11,7 +11,7 @@ app.use(express.json());
 app.set('views', path.join(__dirname , 'views'));
 app.set('view engine', 'ejs');
 
-app.get('/' , async(req , res , next) =>{
+app.get('/' , async(req , res , next) => {
   res.send("Hello From Express!!");
 });
 
